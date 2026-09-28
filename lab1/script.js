@@ -1,17 +1,3 @@
-// інструкція з використання
-console.log("Функція triangle розв'язує прямокутний трикутник за двома заданими елементами.");
-console.log("Як викликати: triangle(значення1, \"тип1\", значення2, \"тип2\");");
-
-console.log("Можливі типи:");
-console.log("leg - катет");
-console.log("hypotenuse - гіпотенуза");
-console.log("adjacent angle - прилеглий до катета кут");
-console.log("opposite angle - протилежний до катета кут");
-console.log("angle - один з гострих кутів (тільки разом з hypotenuse)");
-
-console.log("Кути задаються в градусах.");
-console.log("Приклад: triangle(4, \"leg\", 8, \"hypotenuse\");");
-
 function triangle(value1, type1, value2, type2) {
     let temp;
 
